@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+ position: fixed;
+ background-color: white;
+
+}
+
+.logo {
+    max-width: 100px;
+    float: left;
+    margin: auto;
+
+}
+
+.logo img {
+    max-width: 43px;
+    height: 43px;
+    padding-left: 130px;
+    padding-top: 15px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 75px;
+
+
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+
+}
+
+ul li {
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: Arial, bold;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(108, 106, 106);
+}
+
+ul li a:hover {
+    color: #00754a;
+}
+
+.searchbar {
+    float: right;
+    padding-right: 100px;
+    padding-top: 25px;
+
+
+}
+
+.searchbar input {
+    width: 265px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 50px;
+    background: transparent;
+    border: none;
+    box-shadow: -1px 1px 2px grey;
+
+}
+
+.user {
+    float: right;
+    margin-right: 143px;
+    padding-top: 25px;
+}
+
+.user img {
+    height: 30px;
+    width: 30px;
+}
+
+.green-container {
+    background-color: #1e3932;
+    height: 80px;
+    max-width: 100%;
+    padding-top: 80px;
+
+}
+
+
+.green-container p {
+    padding-top: 20px;
+    padding-left: 130px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: system-ui;
+}
+
+.green-container-button {
+    float: right;
+    margin-right: 165px;
+    margin-top: -20px;
+}
+
+.green-container-button button {
+    background: transparent;
+    color: white;
+    height: 32px;
+    width: 95px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+.green-container-link {
+    text-decoration: none;
+    color: white;
+}
+
+.ad-container {
+    background-color: #d4e9e2;
+    max-width: 1270px;
+    height: 220px;
+    margin: 33px 0 0 130px;
+    border-radius: 7px;
+    /* border: .5px solid black; */
+}
+
+.ad-container img {
+    height: 215px;
+    margin-top: -32px;
+    margin-left: -10px;
+}
+
+.starbucks-ad-image {
+    background-color: black;
+    width: 130px;
+}
+
+.ad-container-p {
+    float: left;
+    margin-left: 155px;
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.ad-container-p p {
+    font-family: system-ui, sans-serif;
+    font-weight: 500;
+}
+
+.pg-1 p {
+    margin-top: -13px;
+    margin-left: -5px;
+    font-size: small;
+}
+
+.pg-2 p {
+    margin-left: -5px;
+    padding-top: 25px;
+    font-size: 20px;
+
+
+
+}
+
+.pg-3 p {
+    margin-left: -5px;
+    padding-top: 25px;
+}
+
+.ad-button {
+    float: right;
+    margin-right: 35px;
+    margin-top: -40px;
+}
+
+.ad-button button {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #00754a;
+    border: none;
+    color: white;
+}
+
+.head1 {
+    margin-top: 68px;
+    margin-left: 135px;
+    font-family: system-ui, sans-serif;
+    letter-spacing: .5px;
+}
+
+.products-img {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+
+}
+
+.products-img img {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+}
+.products-img img:hover{
+    border: 3px solid #009966;
+}
+
+.bestseller,
+.eat {
+    margin-left: 20px;
+    font-family: system-ui;
+    font-size: 15px;
+    /* font-family: monospace; */
+
+    margin-top: 5px;
+}
+
+.drinks {
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+.food {
+    margin-left: 35px;
+    margin-top: 5px;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+.merchandise {
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: system-ui;
+    font-size: 15px;
+   
+}
+
+.view-menu {
+    margin-top: 100px;
+    background-color: #edebe9;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.view-menu h1 {
+    padding: 30px 0 0 120px;
+    color: #1f3a33;
+    width: 250px;
+}
+
+.view-menu-link a {
+    float: right;
+    padding-right: 100px;
+    margin-top: -25px;
+    text-decoration: none;
+    color: #00754a;
+    font-size: 15px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card1,
+.card2,
+.card3 {
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: -1px 1px 2px gray;
+    border-radius: 5px;
+}
+
+.pro-duct img {
+    height: 80px;
+    width: 80px;
+    margin: 15px 0 0 25px;
+    border-radius: 5px;
+
+}
+
+.symbol {
+    width: 23px;
+    height: 23px;
+    /* background-color: #379270; */
+    margin: -83px 0 0 120px;
+}
+
+.symbol img {
+    height: 20px;
+    width: 20px;
+}
+
+.pro-name {
+    margin-left: 122px;
+    font-family: sans-serif;
+}
+
+.pro-name p:nth-child(2) {
+    color: rgb(164, 161, 161);
+    font-size: 9px;
+    padding-top: 3px;
+}
+
+.card-price {
+    width: 100px;
+    margin: 40px 0 0 25px;
+}
+
+.card-button {
+    float: right;
+    margin: -30px 30px 0 0;
+}
+
+.card-button button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 40px;
+    background-color: #00754a;
+    color: white;
+}
+
+.learnmore-container {
+    margin-top: 50px;
+    background-color: #edebe9;
+    height: 510px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.learnmore-container h1 {
+    padding: 30px 0 0 120px;
+    color: #1f3a33;
+    width: 600px;
+}
+
+.bg-image {
+    display: flex;
+
+    background-image: url(./starbucks-images/coffee-cup-1.jpg);
+    height: 380px;
+    width: 1250px;
+    margin: 30px 0% 0 9%;
+    border-radius: 10px;
+}
+
+.bg-image h6 {
+    color: #009966;
+    background-color: #e6edeb;
+    margin: 20px 0 0 30px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    height: 15px;
+
+}
+
+.h1-hh h1 {
+    color: white;
+    padding: 20px;
+    margin-left: -22px;
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.h1-hh {
+    margin: 170px 0 0 -100px;
+
+    color: rgb(229, 225, 225);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    height: 100px;
+}
+
+.bg-lernmore {
+    margin-top: 310px;
+    margin-left: -620px;
+
+}
+
+.bg-lernmore button {
+    width: 200px;
+    height: 35px;
+    border-radius: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.about {
+    background-color: #0e382c;
+    height: 830px;
+}
+
+.about-section {
+    margin-top: 50px;
+    /* background-color:#0e382c ; */
+    max-width: 100%;
+    padding-top: 150px;
+
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.bottom-logo img:nth-child(1) {
+    height: 70px;
+    width: 70px;
+}
+
+
+
+.SOCIAL-MEDIA img {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+.x {
+    position: absolute;
+    margin-left: 100px;
+}
+
+
+
+.play-store img{
+    width: 170px;
+   
+}
+
+.app-store img {
+    width: 170px;
+
+
+}
+
+.About-Us p {
+    padding: 10px;
+    font-family: system-ui, sans-serif;
+    font-weight: 100;
+}
+
+.Responsibility p {
+    padding: 10px;
+    font-weight: 100;
+    font-family: system-ui, sans-serif;
+}
+
+.Quick-Links p {
+    padding: 10px;
+    font-weight: 100;
+    font-family: system-ui, sans-serif;
+}
+
+.Quick-Links {
+    padding: 10px;
+    width: 190Px;
+}
+
+
+
+hr {
+    width: 1250px;
+    margin-left: 120px;
+}
+
+.p2 p {
+    margin: 0 0 0 1150px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    margin-top: 20px;
+    font-family: system-ui, sans-serif;
+}
+
+.about h3 {
+    padding: 10px;
+    font-family: system-ui, sans-serif;
+}
+
+.contact ul li{
+    margin-left: 10px;
+    color: white;
+    font-size: 10px;
+    font-family: system-ui, sans-serif;
+}
+.contact ul{
+    margin-left: 120px;
+
+   
+}
